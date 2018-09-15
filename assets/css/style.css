@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: darkgray;
 }
 
 p {
@@ -28,10 +28,14 @@ textarea {
 }
 
 .navbar {
-    background-color: white;
+    background-color: #ffffff;
     top: 0px;
     width: 100%;
     height: 80px;
+}
+
+.separatedtext {
+    margin: 0px 10px;
 }
 
 .navbarcontent
@@ -70,8 +74,32 @@ textarea {
     align-items: center;
 }
 
+.redirect:visited {
+    text-decoration: none;
+}
+
+.redirect {
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    height: 16px;
+    width: 100%;
+    color: #ffffff;
+    background-color: grey;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    border-color: #4aaaa5;
+    padding: 8px 0px;
+    text-align: center;
+    z-index: 10;
+}
+
 .content {
-    background-color: white;
+    background-color: #ffffff;
     width: 880px;
     margin: 50px auto;
     padding: 40px;
@@ -79,10 +107,55 @@ textarea {
 
 .profile {
     float: left;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0px 20px 5px 0px;
 }
 
 .simpleinput {
     width: 100%;
     font-size: 24px;
     line-height: 32px;
+}
+
+.pfgrid {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    row-gap: 50px;
+}
+
+.pfelement {
+    width: 300px;
+    height: 300px;
+    resize: both;
+}
+
+.gridimage {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+.pfheader {
+    position: relative;
+    width: 100%;
+    size: 32px;
+    bottom: 60px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15px 0px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inlinelink {
+    color: inherit;
+    font-family: inherit;
+    size: inherit;
+    text-decoration: none;
+}
+
+.inlinelink:visited {
+    text-decoration: none;
 }
