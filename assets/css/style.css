@@ -14,17 +14,14 @@ h1 {
     font-weight: bold;
 }
 
-h3 {
+label {
     font-size: 24px;
+    margin: 8px 0px 4px 0px;
+    line-height: 32px;
 }
 
 hr {
     margin: 30px 0px;
-}
-
-textarea {
-    height: 160px;
-    grid-auto-rows: 0;
 }
 
 .navbar {
@@ -32,6 +29,9 @@ textarea {
     top: 0px;
     width: 100%;
     height: 80px;
+    border-width: 0px 4px 0px 0px;
+    border-style: solid;
+    border-color: #cccccc;
 }
 
 .separatedtext {
@@ -82,6 +82,10 @@ textarea {
     text-decoration: none;
 }
 
+.redirect:hover {
+    color:lightblue;
+}
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -89,7 +93,7 @@ textarea {
     height: 16px;
     width: 100%;
     color: #ffffff;
-    background-color: grey;
+    background-color: #666666;
     border-width: 5px 0 0 0;
     border-style: solid;
     border-color: #4aaaa5;
@@ -102,7 +106,8 @@ textarea {
     background-color: #ffffff;
     width: 880px;
     margin: 50px auto;
-    padding: 40px;
+    padding: 20px 40px;
+    border: 2px solid #dddddd;
 }
 
 .profile {
@@ -116,6 +121,17 @@ textarea {
     width: 100%;
     font-size: 24px;
     line-height: 32px;
+    margin: 4px 0px 8px 0px;
+}
+
+.textbox {
+    height: 160px;
+    grid-auto-rows: 0;
+    width: 100%;
+    resize: none;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 4px;
 }
 
 .pfgrid {
@@ -158,4 +174,13 @@ textarea {
 
 .inlinelink:visited {
     text-decoration: none;
+}
+
+input[type="submit"]{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    size: 36px;
+    padding: 12px 30px;
+    margin: 10px 0px;
 }
