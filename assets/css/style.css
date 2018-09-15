@@ -94,7 +94,7 @@ hr {
     width: 100%;
     color: #ffffff;
     background-color: #666666;
-    border-width: 5px 0 0 0;
+    border-top-width: 4px;
     border-style: solid;
     border-color: #4aaaa5;
     padding: 8px 0px;
